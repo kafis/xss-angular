@@ -1,1 +1,3 @@
-{"username": "naive user"}
+{"username": "naive user",
+ "xss":"<script type='text/javascript'>alert('hallo');</script>"
+}
