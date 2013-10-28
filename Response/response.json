@@ -1,6 +1,5 @@
 {
-username: "naive user"
+username: "naive user",
 XSSSInjection: '<script type="text/javascript">alert("hallo");</script>',
 modelExploit: {{model.username}}
-
 }
