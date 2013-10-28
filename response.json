@@ -1,0 +1,5 @@
+{
+ username: "naive user",
+ xss:'<script type="text/javascript">alert("evil XSS")</script>',
+ modelExploit: '{{model.username}}'
+}
