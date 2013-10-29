@@ -1,4 +1,5 @@
 {"username": "naive user",
  "xss":"<script type='text/javascript'>alert('hallo');</script>",
+ "function": "function(){alert('hallo');",
  "exploit": "{{model.username}}"
 }
